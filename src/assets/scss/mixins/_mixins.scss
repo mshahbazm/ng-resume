@@ -1,0 +1,8 @@
+@mixin font-size($sizeValue: 1.6) {
+  font-size: (#{$sizeValue} * 10) + px;
+  font-size: calc(#{$sizeValue/3}vw + #{$sizeValue/3}vh + 8px);
+}
+
+@mixin letter-spacing-ps($val) {
+  letter-spacing: ( $val / 1000 ) * 1em;
+}
