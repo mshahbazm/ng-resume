@@ -11,9 +11,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { EducationComponent } from './education/education.component';
 import { CertificationsComponent } from './certifications/certifications.component';
-import { ThemeComponent } from './theme/theme.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ProjectsListingComponent } from './projects-listing/projects-listing.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -26,9 +26,9 @@ import { ProjectsListingComponent } from './projects-listing/projects-listing.co
     TestimonialsComponent,
     EducationComponent,
     CertificationsComponent,
-    ThemeComponent,
     NotFoundComponent,
-    ProjectsListingComponent
+    ProjectsListingComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

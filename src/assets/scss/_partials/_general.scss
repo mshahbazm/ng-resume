@@ -1,0 +1,28 @@
+
+html,body{
+  font-family: $fonts;
+  color: $defaultTextColor;
+  @include font-size(1.4);
+  font-weight: 300;
+}
+.container{
+  max-width: 1920px;
+  @media (min-width: 1200px){
+    padding-left: calc(10px + 5vw);
+    padding-right: calc(10px + 5vw);
+  }
+}
+a{
+  color: $defaultTextColor;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+
+.full-screen{
+  padding-top: 10vh;
+  padding-bottom: 8vh;
+  height: calc(100vh - 80px);
+  width: 100%;
+}

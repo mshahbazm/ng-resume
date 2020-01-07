@@ -1,0 +1,36 @@
+.doc-header{
+  font-weight: 400;
+  padding-top: calc(1.5vw + 0.5vh + 5px);
+  text-transform: uppercase;
+  a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+  }
+  .logo-title{
+    float: left;
+    font-weight: 800;
+    a{
+      &:after{
+        color: $highlightColor;
+        content: ".";
+        font-size: 140%;
+        padding-left: 2px;
+      }
+    }
+  }
+  nav{
+    float: right;
+    @include font-size(1);
+    ul{
+      margin: 0;
+      padding: 0;
+      > li{
+        display: inline-block;
+        & + li{
+          margin-left: calc(3vw + 0.3vh + 5px);
+        }
+      }
+    }
+  }
+}
