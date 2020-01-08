@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
       slidesToShow: 1,
       autoplay: true,
       fade: true,
-      autoplaySpeed: 8000,
+      autoplaySpeed: 7000,
       adaptiveHeight: true,
       arrows: false,
     });
