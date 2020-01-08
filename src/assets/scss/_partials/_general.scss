@@ -1,9 +1,15 @@
 
 html,body{
-  font-family: $fonts;
+  font-family: $fonts2;
   color: $defaultTextColor;
   @include font-size(1.4);
   font-weight: 300;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: $fonts;
+}
+.link,.btn{
+  font-family: $fonts;
 }
 .container{
   max-width: 1920px;
@@ -14,6 +20,9 @@ html,body{
 }
 a{
   color: $defaultTextColor;
+  &:hover{
+    color: $highlightColor;
+  }
 }
 img{
   width: 100%;
@@ -25,4 +34,33 @@ img{
   padding-bottom: 8vh;
   height: calc(100vh - 80px);
   width: 100%;
+}
+
+a.segment-link{
+  font-family: $fonts;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  @include font-size(2);
+  text-transform: uppercase;
+  background: none !important;
+  span{
+    line-height: 1;
+    display: block;
+    color: #eeeeee;
+    font-weight: 900;
+    @include font-size(6);
+  }
+  &.stick-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  img{
+    max-width: 50px;
+    margin-left: 5px;
+  }
 }

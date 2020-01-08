@@ -1,0 +1,11 @@
+
+.testimonials{
+  margin-top: calc(5vh + 15px);
+  @include font-size(1.6);
+  line-height: 1.4;
+  color: #959595;
+  font-family: 'Kalam', cursive;
+  q{
+    display: block;
+  }
+}
