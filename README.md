@@ -1,7 +1,7 @@
 # ngResume
-ngResume is an angular based resume website. I developed it for my personal use (https://shahbazm.com/) but I wanted to keep it open source. 
-Objective was to create a minimal resume website to put my experinces and projects online.
-##Features
+ngResume is an angular based resume website. demo can be seen at https://shahbazm.com/
+Objective was to create a minimal resume website to put my work experience and projects online.
+## Features
 - Home page with quick about and testimonials
 - Work Experience Listing
 - About page to write career story (**still in development**)
